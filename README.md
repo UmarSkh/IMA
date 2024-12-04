@@ -1,3 +1,6 @@
+This project is a full-stack invoice management system using Django for the backend and React for the frontend. It enables users to create, view, and manage invoices. The backend stores invoice details, while the frontend provides an interactive user interface, making it ideal for small businesses.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
