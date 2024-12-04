@@ -17,7 +17,7 @@ const InvoiceForm = () => {
     e.preventDefault();
     try {
       await axios.post("http://127.0.0.1:8000/api/invoices/", invoiceData);
-      alert("Invoice created successfully!");
+      alert("Invoice created successfully! Refresh to see the changes");
     } catch (error) {
       console.error("Error creating invoice:", error);
     }
